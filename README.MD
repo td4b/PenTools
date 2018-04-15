@@ -1,11 +1,7 @@
 **Binary Exploitation**
 
-freefloat_pwn.py
-
-*FreeFloat FTP Server buffer overflow remote code execution.*
-
-slmail_exploit.py
-Slmail, Buffer Overflow.
+*FreeFloat FTP Server buffer overflow remote code execution.* = freefloat_pwn.py
+*Slmail, Buffer Overflow.* = slmail_exploit.py
 
 **Web Application Security**
 
