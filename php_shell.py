@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import socket
-
 import zlib
 import base64
 
