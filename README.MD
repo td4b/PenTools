@@ -1,9 +1,6 @@
-**Binary Exploitation**
+**Docker Container**
 
-*FreeFloat FTP Server buffer overflow remote code execution.* = freefloat_pwn.py
+This is a Docker Container that houses several useful Pentesting tools and Utilities including:
+Metasploit, Netcat, Nmap, Enum4Linux
 
-*Slmail, Buffer Overflow.* = slmail_exploit.py
-
-**Web Application Security**
-
-*PHP LFI Vulnerability, Apache log contamination Script w/ reverse shell.* = php_shell.py
+This is intended to act as a lighweight pentesting toolset.
