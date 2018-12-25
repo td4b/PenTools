@@ -3,7 +3,7 @@
 This is a Docker Container that houses several useful Pentesting tools and Utilities including:
 Metasploit, Netcat, Nmap, Enum4Linux
 
-This is intended to act as a lighweight pentesting toolset.
+This is intended to act as a lighweight pentesting toolset. This is super babrebones but will be adding additional scripts & utilities as time goes on!
 
 **Usage (Guide)**
 
