@@ -1,6 +1,7 @@
-FROM metasploitframework/metasploit-framework:latest
+FROM kalilinux/kali-linux-docker
 # Install missing Dependencies.
-RUN apk add --update \
-    py-pip \
-    && pip install virtualenv \
-    && rm -rf /var/cache/apk/*
+RUN apt-get update -y && apt-get dist-upgrade -y && apt-get autoremove -y && apt-get clean -y
+
+RUN apt-get install -y kali-linux-top10
+
+ENTRYPOINT ["bin/bash"]
