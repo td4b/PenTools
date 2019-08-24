@@ -1,9 +1,11 @@
 FROM kalilinux/kali-linux-docker
 
-# updates, install metasploit, run postgresql services and create initial db
-RUN apt-get -y update && apt-get -y dist-upgrade && // 
+RUN FROM kalilinux/kali-linux-docker
+# Install missing Dependencies.
+RUN apt-get update -y && apt-get dist-upgrade -y && //
     apt-get -y install metasploit-framework && //
-    apt-get clean && //
+    apt-get autoremove -y && //
+    apt-get clean -y && //
     service postgresql start && //
     msfdb init
 
