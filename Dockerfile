@@ -1,6 +1,5 @@
 FROM kalilinux/kali-linux-docker
 
-RUN FROM kalilinux/kali-linux-docker
 # Install missing Dependencies.
 RUN apt-get update -y && apt-get dist-upgrade -y && //
     apt-get -y install metasploit-framework && //
